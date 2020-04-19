@@ -184,6 +184,10 @@
 
 此时可以使用`git remote show origin` 查看对应信息
 
+如果要设置多各ssh_key，最关键的是在执行`ssh-keygen` 命令后不要连续回车，第一个选项是设置保存的文件的名字，同时需要在激活ssh`eval "$(ssh-agent -s)"`之后将新密钥添加进去`ssh-add ~/.ssh/new_id_rsa`，最后通过`ssh -T git@github.com` 进行测试
+
+建议参考官方教程：[generating ssh keys](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
 
 
 ### **git与远程仓库**
