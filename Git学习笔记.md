@@ -1,5 +1,7 @@
 # Git学习笔记
 
+test
+
 课程：[【公开课】Git应用详解【全】](https://www.bilibili.com/video/BV1Bt411b7sk)
 
 ## 相关命令行命令（Unix等系统推荐oh my zsh插件）
